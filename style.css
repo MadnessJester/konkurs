@@ -1,0 +1,526 @@
+@font-face{
+	font-family: "a";
+	src: url("a.ttf");
+}
+@font-face{
+	font-family: "b";
+	src: url("b.ttf");
+}
+
+@media screen and (max-width: 480px) {
+
+	.menu {
+		visibility: visible;
+	}
+	.upmenu {
+		display: none;
+	}
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #000;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #000;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
+.menu-list {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  gap: 12px;
+  padding: 42px 0;
+  margin: 0;
+  background: orange;
+  list-style-type: none;
+  transform: translateX(-100%);
+  transition: .3s;
+  width: 200px;
+}
+.menu-item {
+  display: block;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background: rgba(255,255,255,.2)
+}
+.burger-checkbox:checked ~ .menu-list {
+  transform: translateX(0);
+}
+
+.menu{
+	visibility: hidden;
+}
+
+.upmenu{
+	display: flex;
+	border-bottom: 2px solid #0000ff;
+	width: 99%;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0.5%;
+	padding-left: 1%;
+
+}
+.logo{
+	width: 60px;
+	height: 60px;
+}
+.hed{
+	padding-left: 2%;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.slogan{
+	padding-left: 1%;
+	padding-right: 15%;
+	font-size: 36px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "a";
+}
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Line 5 */
+.slider{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+
+}
+.img{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.container{
+	display: flex;
+	width: 100%;
+	height: 550px;
+}
+li {
+ display: inline-block; /* Строчно-блочный элемент */
+ border: 2px solid #fff; /* Параметры контура */
+ margin-right: 5px; /* Отступ справа */
+ background: #000; /* Чёрный фон */
+ width: 10px; height: 10px; /* Ширина и высота */
+ border-radius: 10px; /* Делаем кружок */
+}
+li.active {
+ background: #b00; /* Красный фон */
+ box-shadow: 0 0 4px 2px #fff; /* Параметры свечения */
+}
+.void{
+	width: 100%;
+}
+.prev{
+background: none;
+border: none;
+width: 50px;
+}
+.next{
+background: none;
+border: none;
+}
+.strelka{
+	width: 50px;
+	color:3f3f3f;
+}
+
+.shariki{
+	padding-bottom: 110px;
+}
+
+.news{
+	border-bottom: 3px solid blue;
+	border-top: 3px solid blue;
+}
+
+.containerr{
+	display: flex;
+}
+
+.news_area{
+	color: blue;
+	font-family: "b";
+	font-size: 50px;
+	display: flex;
+	margin-left: 100px;
+}
+
+
+
+.button{
+	border: 2px solid #FFC700;
+	font-size: 20px;
+	width: 310px;
+	height: 60px;
+	justify-content: center;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.downmenu{
+	background-color: #BBB8AE;
+	display: flex;
+	font-size: 14px;
+	border-top: 2px solid blue;
+}
+
+.loggo{
+	width: 138px;
+	height: 148px;
+	padding-left: 100px;
+}
+
+.sogl{
+	display: flex;
+	background-color: #BBB8AE;
+	font-size: 19px;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+}
+
+.pol{
+	color: #1D1AB2;
+}
+
+.fut{
+	padding-left: 5%;
+}
+
+.med{
+	position: absolute;
+	width: 200px;
+	display: flex;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+
+.graf{
+	display: flex;
+	justify-content: space-between;
+}
+
+.graf2{
+	width: 100%;
+	margin-top: 100px;
+
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+}
+
+.smile{
+	background-color: #BCAF8A;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm1{
+	display: flex;
+	color: #1D1AB2;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.smile:hover .sm1::after{
+	content: "Поддерживать моральный дух коллектива несмотря на все невзгоды";
+	color: black;
+	font-size: 14px;
+}
+
+.smile:hover span{
+	display: none;
+}
+
+.smile:hover	{
+	background-color: #C3C3C3;
+}
+
+
+.nadej{
+	background-color: #BCAF8A;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: auto;
+	margin-right:10%;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm2{
+	display: flex;
+	color: #1D1AB2;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.nadej:hover .sm2::after{
+	content: "Вселять надежду во всю компанию целиком и оставаться позитивным";
+	color: black;
+	font-size: 14px;
+}
+
+.nadej:hover span{
+	display: none;
+}
+
+.nadej:hover	{
+	background-color: #C3C3C3;
+}
+
+
+.hand{
+	background-color: #EFE3BA;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm3{
+	display: flex;
+	color: #7C7C7C;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.hand:hover .sm3::after{
+	content: "Быть человеком который может справиться с любой проблемой";
+	color: black;
+	font-size: 14px;
+}
+
+.hand:hover span{
+	display: none;
+}
+
+.hand:hover	{
+	background-color: #C3C3C3;
+}
+
+.leader{
+	background-color: #EFE3BA;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: auto;
+	margin-right:10%;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm4{
+	display: flex;
+	color: #7C7C7C;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.leader:hover .sm4::after{
+	content: "Сделать то что никто никогда не делал и выйти в плюс";
+	color: black;
+	font-size: 14px;
+}
+
+.leader:hover span{
+	display: none;
+}
+
+.leader:hover	{
+	background-color: #C3C3C3;
+}
+
+.year{
+	background-color: #6E87D3;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm5{
+	display: flex;
+	color: #DBB23F;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.year:hover .sm5::after{
+	content: "Увеличить количество продаж компании в 2 раза";
+	color: black;
+	font-size: 14px;
+}
+
+.year:hover span{
+	display: none;
+}
+
+.year:hover	{
+	background-color: #C3C3C3;
+}
+
+.prof{
+	background-color: #6E87D3;
+	border: 2px solid black;
+	width: 300px;
+	margin-left: auto;
+	margin-right:10%;
+	margin-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sm6{
+	display: flex;
+	color: #DBB23F;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.prof:hover .sm6::after{
+	content: "Стать профессионалом в своем деле";
+	color: black;
+	font-size: 14px;
+}
+
+.prof:hover span{
+	display: none;
+}
+
+.prof:hover	{
+	background-color: #C3C3C3;
+}
+
+.smile_up{
+
+}
+
+.med{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 200px;
+
+}
+
+.immg{
+	width: 300px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	margin: 0.2%;
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+.sliderr{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.per{
+	color: #817EFF;
+	font-size: 21px;
+}
+
+.buttonn{
+	background-color: #E5D497;
+}
