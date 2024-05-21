@@ -1,0 +1,225 @@
+@font-face{
+	font-family: "a";
+	src: url("a.ttf");
+}
+@font-face{
+	font-family: "b";
+	src: url("b.ttf");
+}
+
+.upmenu{
+	display: flex;
+	border-bottom: 2px solid blue;
+	width: 99%;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0.5%;
+	padding-left: 1%;
+
+}
+.kub{
+	width: 60px;
+	height: 60px;
+}
+.hed{
+	padding-left: 2%;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.slo{
+	padding-left: 1%;
+	padding-right: 15%;
+	font-size: 36px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "a";
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.downmenu{
+	background-color: #BBB8AE;
+	display: flex;
+	font-size: 14px;
+	border-top: 2px solid blue;
+}
+
+.kubb{
+	width: 138px;
+	height: 148px;
+	padding-left: 100px;
+}
+
+.sogl{
+	display: flex;
+	background-color: #BBB8AE;
+	font-size: 19px;
+	justify-content: center;
+}
+
+.pol{
+	color: #1D1AB2;
+}
+
+.fut{
+	padding-left: 5%;
+}
+
+.ban{
+	/* Rectangle 52 */
+
+position:;
+width: 620px;
+height: 306px;
+left: 465.21px;
+top: 343.41px;
+
+margin-left: 30%;
+margin-top: 8%;
+margin-bottom: 8%;
+
+background: #DFD099;
+box-shadow: -8px 15px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(-12.92deg);
+
+}
+/* Выбери свой молодежный конкурс */
+.an{
+position: ;
+width: 368px;
+height: 77px;
+left: 519.13px;
+top: 377.21px;
+
+font-family: 'Inter';
+font-style:normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+transform: rotate(-1deg);
+
+}
+/* Здесь есть конкурсы посвященные реализации веб-приложений */
+.en{
+position: ;
+width: 420px;
+height: 114px;
+left: 538.59px;
+top: 462.01px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+transform: rotate(-1deg);
+
+}
+
+.rul{
+	/* 4314242 1 */
+
+position: absolute;
+width: 242px;
+height: 242px;
+bottom: 550px;
+right: 650px;
+
+transform: rotate(8.08deg);
+
+}
+
+.tek{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col{
+	/* Rectangle 52 */
+
+position: ;
+width: 493px;
+height: 122px;
+left: 221px;
+top: 736px;
+margin-left: auto;
+margin-right: auto;
+padding-top: auto;
+padding-bottom: auto;
+
+background: #738ACD;
+box-shadow: -8px 15px 4px rgba(0, 0, 0, 0.25);
+
+/* «За рулём нас двое» - акция, посвящённая беременным женщинам, которые пользуются автомобилем. Наклейка предупредит окружающих водителей, что нужно обратить внимание на безопасность вождения. */
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.slov{
+
+}
+
+.jel{
+	/* Срок сдачи до 1 ноября 2024 г. */
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #CAB66E;
+
+}
+
+.medd{
+	border-top: 2px solid blue;
+}
+
+.med{
+	position: ;
+	width: 300px;
+	display: flex;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spi{
+	/* Список номинаций */
+
+display: flex;
+align-content: center;
+width: 273px;
+height: 48px;
+margin-left: auto;
+margin-right: auto;
+top: 2235px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #1D1AB2;
+
+}
