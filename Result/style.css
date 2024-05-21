@@ -1,0 +1,183 @@
+@font-face{
+	font-family: "a";
+	src: url("a.ttf");
+}
+@font-face{
+	font-family: "b";
+	src: url("b.ttf");
+}
+
+.upmenu{
+	display: flex;
+	border-bottom: 2px solid blue;
+	width: 99%;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0.5%;
+	padding-left: 1%;
+
+}
+.kub{
+	width: 60px;
+	height: 60px;
+}
+.hed{
+	padding-left: 2%;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.slo{
+	padding-left: 1%;
+	padding-right: 15%;
+	font-size: 36px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "a";
+}
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.downmenu{
+	background-color: #BBB8AE;
+	display: flex;
+	font-size: 14px;
+	border-top: 2px solid blue;
+}
+
+.kubb{
+	width: 138px;
+	height: 148px;
+	padding-left: 100px;
+}
+
+.sogl{
+	display: flex;
+	background-color: #BBB8AE;
+	font-size: 19px;
+	justify-content: center;
+}
+
+.pol{
+	color: #1D1AB2;
+}
+
+.fut{
+	padding-left: 5%;
+}
+
+.ban{
+	/* Rectangle 52 */
+		position: static;
+		width: 620px;
+		height: 159.09px;
+		margin-left: auto ;
+		margin-right: auto ;
+		margin-top: 110px;
+		margin-bottom: 120px;
+
+		background: #DFD099;
+		box-shadow: 5px 15px 4px rgba(0, 0, 0, 0.25);
+		transform: rotate(18.85deg);
+
+}
+/* Выбери свой молодежный конкурс */
+.an{
+	/* Каталог результатов конкурсов */
+
+	position: relative;
+	width: 368px;
+	height: 77px;
+	left: 300.95px;
+	top: 40px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+
+	color: #000000;
+
+}
+/* Здесь есть конкурсы посвященные реализации веб-приложений */
+
+.rul{
+	/* 4314242 1 */
+
+position: absolute;
+width: 242px;
+height: 242px;
+left: 600.67px;
+top: 75.55px;
+
+background: url(4314242.png);
+transform: rotate(-16.08deg);
+
+}
+
+.tek{
+	display: flex;
+
+	justify-content: center;
+	;
+}
+
+.cen{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+
+.tek2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+
+}
+
+.kot{
+	/* download 3 */
+
+display: flex;
+width: 542px;
+height: 329px;
+left: 299px;
+top: 730px;
+
+}
+
+.che{
+		border-top: 2px solid blue;
+}
+
+.chi{
+		border-top: 2px solid blue;
+}
+
+.vid{
+	/* 2024 */
+
+width: 191px;
+height: 48px;
+left: 286px;
+top: 635px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #1D1AB2;
+
+
+}
+.koti{
+	margin:50px;
+}
